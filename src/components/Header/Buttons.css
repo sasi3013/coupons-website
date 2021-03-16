@@ -1,0 +1,26 @@
+:root {
+  /* //? A custom property that contain a value that can be used in other declarations using the var() function. */
+  --primary: #242222;
+}
+
+.btn {
+  padding: 8px 20px;
+  margin: 15px;
+  border-radius: 4px;
+  white-space: nowrap;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+  background-color: var(--primary);
+}
+
+.btn:hover {
+  padding: 6px 18px;
+  /* transition: all 0.3s ease-out; */
+  background-color: transparent;
+  color: white;
+  border-radius: 4px;
+  border: 2px solid var(--primary);
+}

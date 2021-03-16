@@ -1,0 +1,118 @@
+.coupon-details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 10vh;
+  font-size: 2rem;
+  margin-left: 20vh;
+  margin-right: 20vh;
+}
+
+.coupon-details-image {
+  width: 25vw;
+  height: 40vh;
+}
+
+.coupon-details-image > img {
+  position: absolute;
+  display: block;
+  width: 100%;
+  max-width: 25vw;
+  height: 100%;
+  max-height: 40vh;
+  object-fit: cover;
+}
+
+.coupons-details-header {
+  padding: 10vh;
+  font-size: 4rem;
+  font-weight: bold;
+  color: teal;
+}
+
+.coupon-details span {
+  font-weight: bold;
+  color: indianred;
+}
+
+.actions {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.amount {
+  width: 70px;
+  font-size: large;
+  margin: 5px;
+  margin-left: 10px;
+  padding: 10px;
+
+  /* Round corners button */
+  border-radius: 20px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.action-button {
+  width: 350px;
+  font-size: large;
+  font-weight: bold;
+  background-color: teal;
+  color: white;
+  margin: 5px;
+  padding: 10px;
+  /* Round corners button */
+  border-radius: 25px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.action-button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+}
+
+.update-coupon {
+  margin-bottom: 10vh;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.update-coupon > div {
+  font-size: 4rem;
+  font-weight: bold;
+  color: teal;
+}
+
+.update-coupon span {
+  font-weight: bold;
+  color: indianred;
+  margin: 10px;
+}
+
+.update-coupon > input {
+  width: 400px;
+  font-size: large;
+  margin: 10px;
+  padding: 10px;
+
+  /* Round corners button */
+  border-radius: 25px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.update-coupon > input:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.update-coupon select {
+  padding-left: 2px;
+  width: 400px;
+  height: 40px;
+  border-radius: 25px;
+}

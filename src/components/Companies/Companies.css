@@ -1,0 +1,96 @@
+.companies {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 1rem;
+  padding: 10vh;
+}
+
+.companies-search {
+  margin-top: 5vh;
+  margin-left: 5vw;
+  margin-right: 10px;
+  color: teal;
+  font-size: large;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.companies-search input {
+  border-radius: 5px;
+  font-size: large;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.companies-search span {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.create-company {
+  width: 200px;
+  font-size: large;
+  font-weight: bold;
+  background-color: teal;
+  color: white;
+  margin-left: 10vw;
+  margin-top: 5vh;
+  padding: 10px;
+
+  /* Round corners button */
+  border-radius: 25px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.create-company:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+}
+
+table {
+  border: 2px solid teal;
+}
+
+th {
+  border: 2px solid teal;
+  padding: 5px;
+}
+
+td {
+  border: 2px solid teal;
+  padding: 5px;
+}
+
+.companies-table-link {
+  font-weight: bold;
+  font-size: 1.2rem;
+  size: inherit;
+}
+
+.companies-table-link:hover {
+  text-decoration: underline;
+  font-weight: bolder;
+  color: indianred;
+  transition: 300ms;
+}
+
+.cancel-btn {
+  padding: 8px 12px;
+  margin: 5px;
+  border-radius: 4px;
+  white-space: nowrap;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+  background-color: indianred;
+}
+
+.cancel-btn:hover {
+  color: black;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.24), 0 5px 10px 0 rgba(0, 0, 0, 0.19);
+}

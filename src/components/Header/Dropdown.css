@@ -1,0 +1,36 @@
+.dropdown-menu {
+  width: 195px;
+  position: absolute;
+  right: 20vw;
+  top: 76px;
+  list-style: none;
+  text-align: start;
+}
+
+.dropdown-menu li {
+  background: teal;
+  cursor: pointer;
+}
+
+.dropdown-menu li:hover {
+  background: #242222;
+}
+/* Dropdown menu will dissapear after clicking */
+.dropdown-menu.clicked {
+  display: none;
+}
+
+.dropdown-link {
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  color: white;
+  padding: 16px;
+}
+/* Dropdown icon will NOT be displaied on narrow screen. */
+@media screen and (max-width: 960px) {
+  .fa-caret-down {
+    display: none;
+  }
+}

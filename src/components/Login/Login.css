@@ -1,0 +1,30 @@
+.login {
+  margin-top: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.login > div {
+  font-size: 4rem;
+  font-weight: bold;
+  color: teal;
+}
+
+.login > input {
+  width: 400px;
+  font-size: large;
+  margin: 5px;
+  padding: 10px;
+
+  /* Round corners button */
+  border-radius: 25px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.login > input:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}

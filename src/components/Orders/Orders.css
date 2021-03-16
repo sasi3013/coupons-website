@@ -1,0 +1,87 @@
+.orders {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 1rem;
+  padding: 10vh;
+}
+
+.orders-search {
+  margin-left: 5vw;
+  margin-right: 10px;
+  color: teal;
+  font-size: large;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.orders-search input {
+  border-radius: 5px;
+  font-size: large;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.orders-search div {
+  margin-left: 20px;
+  margin-right: 20px;
+  display: inline-block;
+  padding: 10px;
+}
+
+table {
+  border: 2px solid teal;
+}
+
+th {
+  border: 2px solid teal;
+  padding: 5px;
+}
+
+td {
+  border: 2px solid teal;
+  padding: 5px;
+}
+
+.orders-table-link {
+  font-weight: bold;
+  font-size: 1.2rem;
+  size: inherit;
+}
+
+.orders-table-link:hover {
+  text-decoration: underline;
+  font-weight: bolder;
+  color: indianred;
+  transition: 300ms;
+}
+
+.orders-not-loged-in {
+  margin-top: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-weight: bold;
+  color: teal;
+  font-size: 2rem;
+}
+
+.cancel-btn {
+  padding: 8px 12px;
+  margin: 5px;
+  border-radius: 4px;
+  white-space: nowrap;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+  background-color: indianred;
+}
+
+.cancel-btn:hover {
+  color: black;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.24), 0 5px 10px 0 rgba(0, 0, 0, 0.19);
+}
